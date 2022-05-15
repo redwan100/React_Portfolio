@@ -1,16 +1,9 @@
 import React from 'react'
-import img1 from '../assets/pictures/bg.83584e25.png'
-const eventData = [
-  {
-    id: 1,
-    img: img1
-  }
-]
-
+import Reaction from '../components/ReactComponents';
 const Event = () => {
   return (
     <div>
-      
+      <Reaction />
     </div>
   )
 }

@@ -36,8 +36,8 @@ const Reaction =()=>{
     const filteredItem = (item)=>{
         const filter_item = reacts.filter((t)=> t.type === item)
         setSelectReact(filter_item)
-        console.log(selectReact)
     }
+    console.log(selectReact);
     return(
         <ReactStyle>
             
@@ -48,6 +48,10 @@ const Reaction =()=>{
                     ))
                 }
             </ul>
+
+            <p>
+                
+            </p>
         </ReactStyle>
     )
 
