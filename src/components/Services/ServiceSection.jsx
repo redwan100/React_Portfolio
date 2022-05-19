@@ -23,8 +23,8 @@ const ServiceSection = () => {
        <SectionTitle title="service"/>
        <div className="serviceAllItems">
            {
-               ServiceData.map((item)=>(
-                   <ServiceItem
+               ServiceData.map((item, i)=>(
+                   <ServiceItem key={i}
                     names={item.name}
                     desc={item.desc}
                     icon={item.icon}

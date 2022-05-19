@@ -69,8 +69,8 @@ const Resume = () => {
             </div>
 
             {
-              workData.map((work)=>(
-                <ResumeItem 
+              workData.map((work, i)=>(
+                <ResumeItem key={i}
                 heading={work.heading}
                 icon = {work.icon}
                 title={work.title}
@@ -90,8 +90,8 @@ const Resume = () => {
             </div>
 
             {
-              eduData.map((work)=>(
-                <ResumeItem 
+              eduData.map((work, i)=>(
+                <ResumeItem key={i}
                 heading={work.heading}
                 icon = {work.icon}
                 title={work.title}

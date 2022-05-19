@@ -1,67 +1,103 @@
-import img from '../pictures/pic.jpeg'
+import img from '../pictures/html.jpg'
 const portfolioData = [
     {
         id: 1,
-        title:'file manager',
+        title:"html template",
         desc: 'file manager templete design',
         gategory:"html",
         img: img,
+        mdesc: "This design made for Grow Your Restaurants Business. This type of website help you to growing up your Restaurants world wide",
+        link: 'www.google.com'
     },
     {
         id: 2,
-        title:'file manager',
-        desc: 'file manager templete design',
-        gategory:"reactJs",
+        title:'react manager',
+        desc: 'react manager templete ',
+        gategory:"reactjs",
         img: img,
+        mdesc: "This design made for Grow Your Restaurants Business. This type of website help you to growing up your Restaurants world wide",
+        link: 'www.google.com'
     },
     {
         id: 3,
-        title:'file manager',
-        desc: 'file manager templete design',
+        title:'html website',
+        desc: 'html manager templete design',
         gategory:"html",
         img: img,
+        mdesc: "This design made for Grow Your Restaurants Business. This type of website help you to growing up your Restaurants world wide",
+        link: 'www.google.com'
     },
     {
         id: 4,
-        title:'file manager',
+        title:'react manager',
         desc: 'file manager templete design',
-        gategory:"reactJs",
+        gategory:"reactjs",
         img: img,
+        mdesc: "This design made for Grow Your Restaurants Business. This type of website help you to growing up your Restaurants world wide",
+        link: 'www.google.com'
     },
     {
         id: 5,
-        title:'file manager',
+        title:'google drive',
         desc: 'file manager templete design',
         gategory:"html",
         img: img,
+        mdesc: "This design made for Grow Your Restaurants Business. This type of website help you to growing up your Restaurants world wide",
+        link: 'www.google.com'
     },
     {
         id: 6,
-        title:'file manager',
+        title:'youtube app',
         desc: 'file manager templete design',
-        gategory:"javaScript",
+        gategory:"javascript",
         img: img,
+        mdesc: "This design made for Grow Your Restaurants Business. This type of website help you to growing up your Restaurants world wide",
+        link: 'www.google.com'
     },
     {
         id: 7,
-        title:'file manager',
+        title:'react template',
         desc: 'file manager templete design',
-        gategory:"html",
+        gategory:"reactjs",
         img: img,
+        mdesc: "This design made for Grow Your Restaurants Business. This type of website help you to growing up your Restaurants world wide",
+        link: 'www.google.com'
     },
     {
         id: 8,
-        title:'file manager',
-        desc: 'file manager templete design',
+        title:'bootstrap manager',
+        desc: 'bootstrap manager templete design',
         gategory:"bootstrap",
         img: img,
+        mdesc: "This design made for Grow Your Restaurants Business. This type of website help you to growing up your Restaurants world wide",
+        link: 'www.google.com'
     },
     {
         id: 9,
-        title:'file manager',
+        title:'html css manager',
+        desc: 'html css manager templete design',
+        gategory:"html css",
+        img: img,
+        mdesc: "This design made for Grow Your Restaurants Business. This type of website help you to growing up your Restaurants world wide",
+        link: 'www.google.com'
+    },
+    {
+        id: 10,
+        title:'html website manager',
         desc: 'file manager templete design',
         gategory:"html",
         img: img,
+        mdesc: "This design made for Grow Your Restaurants Business. This type of website help you to growing up your Restaurants world wide",
+        link: 'www.google.com'
+    },
+    {
+        id: 11,
+        title:'html css website',
+        desc: 'file manager templete design',
+        gategory:"html css",
+        img: img,
+        mdesc: "This design made for Grow Your Restaurants Business. This type of website help you to growing up your Restaurants world wide",
+        link: 'www.google.com'
     },
 ]
 

@@ -47,8 +47,8 @@ const SkillItem = ({
         <h3>{title}</h3>
         <div className="list">
             {
-                skills.map((skill)=>(
-                    <li>
+                skills.map((skill, i)=>(
+                    <li key={i}>
                         <div className="circle"></div>
                         <span>{skill}</span>
                     </li>
